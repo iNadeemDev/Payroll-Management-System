@@ -1,0 +1,790 @@
+/***  GENERAL CSS STARTS HERE  ***/
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+input:focus {
+    outline: none;
+}
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+table {
+    margin: 5px;
+    margin-bottom: 30px;
+    width: 99%;
+}
+a { color: inherit; }
+#popup , #popup2 , #popup3, #popup4, #popup5{
+    visibility: hidden;
+    background-color:rgb(9, 255, 0); 
+    position: absolute;
+    font-size: 22px;
+    color: brown;
+    top: 45%;
+    z-index: 99999999;
+    padding: 30px;
+    width: 30%;
+    left: 45%;
+}
+#mark {
+    visibility: hidden;
+    background-color:yellow; 
+    position: absolute;
+    font-size: 22px;
+    color: brown;
+    top: 0px;
+    z-index: 99999999;
+    padding: 26px 15px;
+    width: 37%;
+    left: 29%;
+}
+#popupLogin , #popupLogin2 {
+    visibility: hidden;
+    background-color:rgb(243, 10, 243); 
+    position: absolute;
+    font-size: 22px;
+    top: 9.5%;
+    border-radius: 15px 15px 0px 0px;
+    z-index: 99999999;
+    padding: 30px;
+    width: 21.5%;
+    left: 37.05%;
+}
+/***  GENERAL CSS ENDS HERE  ***/
+
+/***  HEADER SECTION CSS STARTS HERE  ***/
+.header {
+    background-color: brown;
+}
+.logo {
+    display: inline-block;
+    width: 5%;
+    margin: 4px;
+    margin-left: 10px;
+}
+.header p {
+    display: inline-block;
+    width: 60%;
+    color: cornsilk;
+    vertical-align: 18px;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.header a {
+    text-decoration: none;
+    display: inline-block;
+    color: cornsilk;
+    vertical-align: 18px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+.header a:hover {
+    color: yellow;
+
+}
+/***  HEADER SECTION CSS ENDS HERE  ****/
+
+/***  HOMEPAGE CSS STARTS HERE  ***/
+.home_main{
+    height: 87%;
+    background-color: rgb(235, 147, 32);
+}        
+.main_txt{
+    position: absolute;
+    width: 49%;
+    height: 87%;          
+}
+.heading{
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.paragraph{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: -10px;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight: bold;
+}
+.home_main h1 {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: royalblue;
+    vertical-align: bottom;      
+}
+.loginbtn {
+    width: 40%;
+    padding: 18px;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 45px;
+    border-radius: 25px;
+    background-color: rgb(74, 235, 74);
+    color: white;
+    font-family: sans-serif;
+}
+.loginbtn a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+.home_pic{
+    margin-left: 682px;
+    position: absolute;
+    width: 49%;
+    height: 87%;
+}
+.img_main {
+    width: 85%;
+    height: 75%;
+    vertical-align: bottom;
+    margin-top: 100px;
+}
+/***  HOMEPAGE SECTION CSS ENDS HERE  ****/
+
+/***  LOGIN PAGE CSS STARTS HERE  ***/
+.bg_login_img {
+    background-image: url("images/bg_login.jpg");
+    background-size: 100% 100%;
+    height: 88%;
+    background-repeat: no-repeat;
+}
+.login_container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightgreen;
+    width: 25%;
+    height: 85%;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding: 5px 5px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    opacity: 0.9;
+}
+.login_form {
+    text-align: left;
+    font-size: 19px;
+}
+.login_form label {
+    display: block;
+}
+.login_form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 13px 7px;
+    box-sizing: border-box;
+}
+.login_form input:last-of-type {
+    display: inline-block;
+    width: 55%;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #FFF;
+    background-color: rgb(69, 59, 207);
+    font-size: 18px;
+    cursor: pointer;
+}
+.login_form a {
+    display: inline-block;
+}
+#clock {
+    color: brown;
+    font-size: 20px;
+}
+/***  LOGIN PAGE CSS ENDS HERE  ***/
+
+/***  SUPPORT PAGE CSS STARTS HERE  ***/
+.support_area {
+    width: 100%;
+}
+.bg_support_img {            
+    background-image: url(images/bg_task.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: table;
+    width: 100%;
+}        
+.support_container {
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightgreen;
+    width: 40%;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding: 20px 15px;
+    border: 1px solid brown;
+    overflow-x: hidden;
+    margin-top: 390px; 
+}
+.support_container p {
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}    
+.support_form {
+    text-align: left;
+    font-size: 19px;
+}        
+.support_form label {
+    display: block;
+}        
+.support_form input {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 98%;
+    margin-bottom: 15px;
+    padding: 15px 17px;
+    box-sizing: border-box;
+}        
+.support_form input, select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 8px;
+    resize: vertical;
+}        
+.support_form input:last-of-type {
+    display: inline-block;
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 25.5rem;
+    color: #FFF;
+    background-color: brown;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}        
+.support_form a {
+    display: inline-block;
+}
+/***  SUPPORT PAGE CSS ENDS HERE  ***/
+
+/***  ANNOUNCEMENT PAGE CSS STARTS HERE  ***/
+.bg_announce {
+    background-image: url(images/bg_task.png);
+}
+.bg_announce h1{
+    text-align: center;
+    margin: 20px auto; ;
+    color: brown;
+    background-color: lightgreen;
+    width: 25%;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.read-more-container{
+    margin: 50px auto;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;            
+}
+.announce_container { 
+    width: 1170px;
+    margin: 0 auto;           
+    padding: 1rem;
+    background-color: #dfe6e9;
+    line-height: 1.6rem;
+    width: 50%;
+    font-family: sans-serif;
+    border-radius:  0px 22px 0px 22px;
+    box-shadow: 2px 3px 4px rgb(1,1,1,1);
+}
+.read-more-btn{
+    color: brown;
+    padding: 1rem;
+    background-color: lightgreen;
+    border-radius: 15px;
+}
+.read-more-btn:hover{
+    color: white;
+    padding: 1.2rem;
+    background-color: brown;
+    border-radius: 15px;
+}
+.read-more-text{
+    display: none;
+}
+.read-more-text--show{
+    display: inline;
+}
+/***  ANNOUNCEMENT PAGE CSS ENDS HERE  ***/
+
+/***  FAQs PAGE CSS STARTS HERE  ***/
+.bg_faqs {
+	background-image: url("images/bg_task.png");
+	background-size: 100% 100%;
+	height: 100%;
+}
+.faqs_box{
+   	width: 70%;
+   	margin: 10px auto;
+   	box-shadow: 1px 2px 4px rgba(0,0,0,3);
+   	border-radius: 7px;      	
+}
+.faqs_box .heading{
+    margin-left: 25%;
+  	border-radius: 9px 9px 0px 0px;
+   	background: lightgreen;
+   	padding: 20px;
+   	color: brown;
+   	font-family: Arial, Helvetica, sans-serif;
+   	text-align: center;
+   	font-size: 30px;
+   	font-weight: bold;
+   	font-style: inherit;
+}
+.faqs{
+ 	padding: 0px 20px 20px;
+   	font-style: initial;        
+    }
+::-webkit-details-marker{
+   	float: right;
+   	margin-top: 3px;
+}
+details{        	
+   	background: lightgreen;
+  	padding: 10px 20px;
+   	border-radius: 7px;
+   	margin-top: 20px;
+   	font-family:Tahoma;
+   	font-size: 20px;
+   	letter-spacing: 1px;
+   	word-spacing: 1px;
+   	text-align: justify;
+   	filter: opacity(0.9);
+}
+details summary{
+    outline: none;
+    font-weight: inherit;
+}
+/***  FAQs PAGE CSS ENDS HERE  ***/
+
+/*** ADMIN DASHBOARD CSS STARTS HERE  ***/
+.sidebar {
+    display: inline-block;
+    width: 20%;
+    margin: 0px;
+    z-index: 1;
+    overflow-x: hidden;
+    background-color: darkgoldenrod;
+    height: 100%;
+}
+.bg_sidebar {
+    background-image: url("images/bg_sidebar.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.user {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    background-color: brown;
+    font-size: 25px;
+    color: white;
+    width: 93.5%;
+    margin-top: 8px;
+    padding: 12px;
+}
+.sidebar a:hover {
+    color: yellow;
+    background-color: orangered;
+}
+.task_area {
+    width: 80%;
+    height: 90%;
+    overflow-x: hidden;
+    float: right;
+}
+.bg_task_area {
+    background-image: url("images/bg_task.png");
+    background-size: 100% 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: table;
+    width: 100%;
+}
+.area1_db_adm {
+    display: block;
+    font-size: 25px;
+    margin-left: 9%;
+}
+.area1_db_adm p {
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-right: 70px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.area1_db_adm p:last-of-type {
+    padding: 15px 25px;
+}
+.area1_db_adm h3 {
+    display: inline-block;
+    width: 70%;
+}
+.area1_db_adm a {
+    display: inline-block;
+    margin-left: 15px;
+    
+}
+.area2_db_adm {
+    display: block;
+    font-size: 35px;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.area2_db_adm a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 45px;
+    margin-right: 38px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.area2_db_adm a:last-of-type {
+    padding: 20px 65px;
+}
+/***  ADMIN DASHBOARD CSS ENDS HERE  ***/
+
+/*** ADMIN EMPLOYEE-PAGE CSS STARTS HERE  ***/
+.area1_emp_adm {
+    display: block;
+    font-size: 25px;
+}
+.area1_emp_adm p {
+    text-align: center;
+    float: right;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.tot_emp_db_adm {
+    padding: 15px 7px;
+}
+.searchbar_emp_adm {
+    display: block;
+    margin-left: 5%;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/*** ADMIN EMPLOYEE-PAGE CSS ENDS HERE  ***/
+
+/*** ADMIN ADD-EMPLOYEE-PAGE CSS STARTS HERE ***/
+.addEmpForm {
+    margin-left: 37.5%;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.addEmpForm label, input,textarea, select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.addEmpForm label {
+    margin-top: 5px;
+}
+.addEmpForm input {
+    opacity: 0.8;
+}
+.addEmpForm input:focus {
+    opacity: 1;
+}
+.addEmpForm select {
+    padding: 4px;
+}
+.addEmpForm input:last-of-type {
+    background-color: rgb(69, 59, 207);
+    opacity: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+/***  ADMIN DEPARTMENTS-PAGE CSS STARTS HERE  ***/
+.area1_dpt_adm {
+    display: block;
+    font-size: 25px;
+    margin-left: 9%;
+}
+.area1_dpt_adm p {
+    text-align: center;
+    float: right;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.searchbar_dpt_adm {
+    display: block;
+    margin-left: 5%;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/***  ADMIN DEPARTMENTS-PAGE CSS ENDS HERE  ***/
+
+/***  ADMIN PAYROLLS-PAGE CSS STARTS HERE  ***/
+.searchbar_prl_adm {
+    display: block;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/***  ADMIN PAYROLLS-PAGE CSS STARTS HERE  ***/
+
+/*** ADMIN USERS-PAGE CSS STARTS HERE  ***/
+
+.area1_user_adm {
+    display: block;
+    font-size: 25px;
+    margin-left: 9%;
+}
+.area1_user_adm p {
+    text-align: center;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+    float: right;
+}
+.searchbar_user_adm {
+    display: block;
+    margin-left: 5%;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/***  ADMIN USERS-PAGE CSS ENDS HERE  ***/
+
+/***  MANAGER DASHBOARD-PAGE CSS STARTS HERE  ***/
+.area1_db_mng {
+    display: block;
+    font-size: 25px;
+    margin-left: 8%;
+}
+.area1_db_mng p {
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-right: 65px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.area1_db_mng p:first-of-type {
+    padding: 15px 10px;
+
+}
+.area1_db_mng p:last-of-type {
+    padding: 15px 25px;
+}
+.area2_db_mng {
+    display: block;
+    font-size: 35px;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.area2_db_mng a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 45px;
+    margin-right: 80px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/***  MANAGER DASHBOARD-PAGE CSS ENDS HERE  ***/
+
+/***  MANAGER EMPLOYEES-PAGE CSS STARTS HERE  ***/
+.area1_emp_mng {
+    display: block;
+    font-size: 25px;
+}
+.area1_emp_mng p {
+    text-align: center;
+    float: right;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.searchbar_emp_mng {
+    display: block;
+    margin-left: 5%;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/***  MANAGER EMPLOYEES-PAGE CSS ENDS HERE  ***/
+
+/***  MANAGER PAYROLLS-PAGE CSS STARTS HERE  ***/
+.area1_prl_mng {
+    display: block;
+    font-size: 25px;
+    margin-left: 9%;
+}
+.area1_prl_mng p {
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.searchbar_prl_mng {
+    display: block;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 35%;
+    text-decoration: none;
+    border-radius: 35px;
+    border: none;
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+}
+/*** MANAGER PAYROLLS-PAGE CSS ENDS HERE  ***/
+
+/*** EMPLOYEES DASHBOARD-PAGE CSS STARTS HERE  ***/
+.area1_db_emp {
+    display: block;
+    font-size: 25px;
+    margin-left: 9%;
+}
+.area1_db_emp p {
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-right: 70px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.area1_db_emp p:last-of-type {
+    padding: 15px 25px;
+}
+.area2_db_emp {
+    display: block;
+    font-size: 35px;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.area2_db_emp a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(102, 231, 158);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px 45px;
+    margin-right: 80px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+/***  EMPLOYEE DASHBOARD-PAGE CSS ENDS HERE  ***/
+
+/***  User Check Availability Colors CSS   ***/
+.status-available{color:#2FC332;}
+.status-not-available{color:#D60202;}
+/*********************************************/
+
+/***  EMPLOYEE PAYROLLS-PAGE CSS STARTS HERE  ***/
+
+/***  EMPLOYEE PAYROLLS-PAGE CSS ENDS HERE ***/
